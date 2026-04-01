@@ -5,3 +5,6 @@ Types:
 - Push notifications
 
 Status: Planned
+🌟 The Curious Coder
+
+Ritesh was a curious developer who loved solving problems. One day, he was trying to push his code to GitHub, but nothing worked. Errors kept appearing, and it felt frustrating

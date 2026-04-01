@@ -12,3 +12,4 @@ Status: Running
 
 ritish-metta account
 Use GitHub token
+Instead of giving up, he decided to understand the problem step by step. He learned about Git, branches, commits, and even tricky things like merge conflicts and authentication.
