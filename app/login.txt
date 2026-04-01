@@ -9,3 +9,7 @@ Validation:
 - Minimum password length: 6
 
 Status: Basic login enabled
+
+🧠 What went wrong
+Wrong repo name ❌
+Old remote still stored ❌
