@@ -7,7 +7,5 @@ Features:
 
 Status: Under development
 🔥 FINAL FIX (Do this exactly)
-🔹 Step 1: Remove old credentials
-Open Credential Manager
-Go to Windows Credentials
+
 Delete:
