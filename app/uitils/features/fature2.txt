@@ -1,0 +1,7 @@
+Feature 2: Notifications
+
+Types:
+- Email
+- Push notifications
+
+Status: Planned

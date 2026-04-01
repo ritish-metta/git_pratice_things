@@ -1,0 +1,8 @@
+Helper Functions
+
+Functions:
+- formatDate()
+- parseResponse()
+- validateInput()
+
+Usage: Shared across modules

@@ -1,0 +1,10 @@
+Logger Utility
+
+Log Levels:
+- INFO
+- WARNING
+- ERROR
+
+Output: Console and file logging
+
+Status: Active

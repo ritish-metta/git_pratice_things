@@ -1,0 +1,11 @@
+Login Module
+
+Fields:
+- Username
+- Password
+
+Validation:
+- Check empty fields
+- Minimum password length: 6
+
+Status: Basic login enabled

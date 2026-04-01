@@ -1,0 +1,8 @@
+Dashboard Module
+
+Features:
+- User stats
+- Activity logs
+- Notifications
+
+Status: Under development
