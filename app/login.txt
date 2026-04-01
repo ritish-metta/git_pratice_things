@@ -12,4 +12,8 @@ Status: Basic login enabled
 
 🧠 What went wrong
 Wrong repo name ❌
+
+
+neded this file 
 Old remote still stored ❌
+needed 

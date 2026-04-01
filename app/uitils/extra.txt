@@ -1,1 +1,69 @@
 this is the extra file that created 
+git rebase -i 4385fc9eecb613409852af983d269be6df16e4a5~1
+```
+
+The `~1` means "start just before that commit."
+
+---
+
+## Step 3: Drop the commit in the editor
+
+An editor (like vim or nano) will open. You'll see a line like:
+```
+pick 4385fc9 your commit message here
+```
+
+Change `pick` to `drop`:
+```
+drop 4385fc9 your commit message here
+
+Good 👍 — your Git config is correct:
+
+Name ✅ ritish-metta
+Email ✅ ritishmetta@gmail.com
+❗ But your error is STILL because:
+
+👉 Git is logging in as BCSS-Ritesh (old cached account)
+
+🔥 Final Fix (you MUST do this)
+👉 Step 1: Open Credential Manager
+Press Windows + S
+Search: Credential Manager
+👉 Step 2: Go to
+
+➡️ Windows Credentials
+
+👉 Step 3: Find and DELETE
+
+Anything like:
+
+git:https://github.com
+github.com
+
+👉 Delete ALL GitHub entries ❌
+
+👉 Step 4: Try push again
+git push -u origin main
+👉 Step 5: Login popup
+
+Now it will ask:
+
+Username: ritish-metta
+Password: 👉 GitHub Token (NOT normal password)
+⚡ If it STILL doesn’t ask login
+
+Run this once:
+
+git config --global --unset credential.helper
+
+Then push again.
+
+🧠 Why this is happening
+Git config = correct ✅
+But Windows saved old login ❌
+So Git keeps using wrong account
+🚀 Best Solution (optional but powerful)
+
+👉 Use SSH → no login issues ever
+
+not needed 
