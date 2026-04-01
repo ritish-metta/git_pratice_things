@@ -1,14 +1,21 @@
-Dashboard Module
+this is the extra file that created 
+git rebase -i 4385fc9eecb613409852af983d269be6df16e4a5~1
+```
 
-Features:
-- User stats
-- Activity logs
-- Notifications
+The `~1` means "start just before that commit."
 
-Status: Under development
-🔥 FINAL FIX (Do this exactly)
+---
 
-Delete:
+## Step 3: Drop the commit in the editor
+
+An editor (like vim or nano) will open. You'll see a line like:
+```
+pick 4385fc9 your commit message here
+```
+
+Change `pick` to `drop`:
+```
+drop 4385fc9 your commit message here
 
 Good 👍 — your Git config is correct:
 
@@ -58,4 +65,5 @@ So Git keeps using wrong account
 🚀 Best Solution (optional but powerful)
 
 👉 Use SSH → no login issues ever
-needed 
+
+not needed 

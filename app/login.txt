@@ -1,0 +1,19 @@
+Login Module
+
+Fields:
+- Username
+- Password
+
+Validation:
+- Check empty fields
+- Minimum password length: 6
+
+Status: Basic login enabled
+
+🧠 What went wrong
+Wrong repo name ❌
+
+
+neded this file 
+Old remote still stored ❌
+needed 
